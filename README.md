@@ -21,3 +21,15 @@ Add Tailwindcss config file to your project
 ```
 npx tailwindcss init -p
 ```
+update tailwindcss config file with these code to apply tailwindcss 
+
+```
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+```
