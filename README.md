@@ -33,3 +33,10 @@ export default {
   plugins: [],
 };
 ```
+Import tailwindcss css to your stylesheet file
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
