@@ -16,3 +16,8 @@ Install Tailwindcss to your project
 ```
 npm install -D tailwindcss postcss autoprefixer
 ```
+Add Tailwindcss config file to your project
+
+```
+npx tailwindcss init -p
+```
