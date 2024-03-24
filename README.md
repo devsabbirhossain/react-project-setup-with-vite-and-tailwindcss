@@ -40,3 +40,9 @@ Import tailwindcss css to your stylesheet file
 @tailwind components;
 @tailwind utilities;
 ```
+To Setup react icon ***https://react-icons.github.io/react-icons/***
+
+```
+npm install react-icons --save
+```
+
